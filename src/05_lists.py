@@ -1,7 +1,7 @@
 # For the exercise, look up the methods and functions that are available for use
 # with Python lists.
 
-x = [1, 2, 3]
+r = [1, 2, 3]
 y = [8, 9, 10]
 
 # For the following, DO NOT USE AN ASSIGNMENT (=).
@@ -9,19 +9,19 @@ y = [8, 9, 10]
 # Change x so that it is [1, 2, 3, 4]
 # YOUR CODE HERE
 
-x.append(4)
-print(x)
+r.append(4)
+print(r)
 
 # Using y, change x so that it is [1, 2, 3, 4, 8, 9, 10]
 # YOUR CODE HERE
 
-r = x + y
+r = r + y
 print(r)
 
 # Change x so that it is [1, 2, 3, 4, 9, 10]
 # YOUR CODE HERE
 
-1 = r.pop(4)
+l = r.pop(4)
 print(r)
 
 # Change x so that it is [1, 2, 3, 4, 9, 99, 10]
@@ -39,4 +39,4 @@ print(len(r))
 # YOUR CODE HERE
 
 for elem in r:
-    print(elem = 1000)
+    print(elem * 1000)
